@@ -1,0 +1,26 @@
+.about-user-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f9fafb;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.about-user-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.about-user-info span {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.about-user-actions {
+    display: flex;
+    justify-content: flex-start;
+}

@@ -1,0 +1,78 @@
+/* create-company-page.css */
+
+.create-company-page {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    font-family: sans-serif;
+}
+
+.create-company-page h1 {
+    font-size: 24px;
+    margin-bottom: 16px;
+    text-align: center;
+    color: #333;
+}
+
+.create-company-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.create-company-form input,
+.create-company-form select {
+    padding: 10px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color .2s;
+}
+
+.create-company-form input:focus,
+.create-company-form select:focus {
+    border-color: #007bff;
+}
+
+.error-message,
+.success-message {
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.error-message {
+    background: #ffe5e5;
+    color: #d8000c;
+    border: 1px solid #d8000c;
+}
+
+.success-message {
+    background: #e5ffe5;
+    color: #006400;
+    border: 1px solid #006400;
+}
+
+.create-company-form button,
+.create-company-form .button {
+    padding: 10px 16px;
+    font-size: 16px;
+    background: #e5ffe5;
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: flex-end;
+    transition: background .2s;
+}
+
+.create-company-form button:hover,
+.create-company-form .button:hover {
+    background: #006400;
+    color:#fff;
+}
